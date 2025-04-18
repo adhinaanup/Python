@@ -1,0 +1,6 @@
+f=open("adhina","w")
+f.write('Hello')
+f.write('\n')
+f.write('World')
+f=open("adhina","r")
+print(f.readline())
