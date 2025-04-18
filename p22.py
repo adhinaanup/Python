@@ -1,6 +1,18 @@
-address = {"state": "Texas", 'city': 'Houston'}
-person = {'name': 'Jessa', 'company': 'Google', 'address': address}
-for i in person:
-    if i=='address':
-        for j in address:
-            print(j)
+#functions on string
+# print(len(x))
+# print(sorted(x,reverse=True))
+# operators on string
+# type conversion
+# x='student'
+# print(list(x))
+# print(set(x))# methods
+# replace# x='naseeha jamal '
+# print(x.replace(' ','.',1))
+# strip# x='    nase eha    '
+# print(x.strip())
+# join# x='nazriya'
+# y='nazim'
+# print('.'.join([x,y]))
+# split# x='student'
+# y='attentive'
+# # print(x.split('t'))

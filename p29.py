@@ -1,6 +1,8 @@
-# remove 10,20,30 from the set#
-set1 = {10, 20, 30, 40, 50}
-set1.remove(10)
-set1.remove(20)
-set1.remove(30)
-print(set1)
+# to check if a string entered by the user is a palindrome or not#
+s=input('Enter the string : ')
+x=s[::-1]
+#print(x)
+if s==x:
+    print('Palindrome')
+else:
+    print('Not palindrome')

@@ -1,22 +1,9 @@
-#creating tuples using parenthesis
-tuple=(1,2,3,4,5)
+#creating tuples
+tuple=(0,'flower',2,3,4)
 print(tuple)
-print()
 
-#comma separated
-# t=1,2,3,4,5
-# print(t)
-# print(type(t))
-# print()
+#accessing tuples
+print('The first element is :',tuple[0])
+print('The second last element is :',tuple[-2])
+print('The last element is :',tuple[-1])
 
-#creating tuples with single element
-# x1=(1,)
-# x2=1,
-# print(type(x1))
-# print(x1)
-# print(x2)
-
-#using tuple() constructor
-# li=[1,2,3,4,5]
-# tu=tuple(li)
-# print(tu)

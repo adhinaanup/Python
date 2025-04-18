@@ -1,5 +1,17 @@
+def add(x,y):
+    print("Addition : ",x+y)
+def sub(x,y):
+    print("Subtration :",x-y)
+def mul(x,y):
+    print("Multiplication :",x*y)
+def div(x,y):
+    print("Division :",x/y)
 
-input_list = input("Enter a list of elements separated by spaces: ").split()
-input_list = [int(i) if i.isdigit() else i for i in input_list]
-result_list = [item for item in input_list if input_list.count(item) == 1]
-print(f"List after removing elements that occur more than once: {result_list}")
+
+print("___CALCULATOR___")
+x=int(input("Enter no 1 :"))
+y=int(input("Enter no 2 :"))
+add(x,y)
+sub(x,y)
+mul(x,y)
+div(x,y)

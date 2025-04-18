@@ -1,4 +1,5 @@
-x=input('Enter the string : ')
-c=input('Enter the charcter : ')
-count=x.count(c)
-print(count)
+x=1
+while x<=30:
+    if x%3==0:
+        print(x)
+    x=x+1

@@ -1,5 +1,14 @@
-#Return a new set of identical items from two sets
-set1 = {10, 20, 30, 40, 50}
-set2 = {30, 40, 50, 60, 70}
-set3=set1&set2
-print(set3)
+# to change the wovels of a string to uppercase#
+v='aeiouAEIOU'
+s='Adhina'
+result=''
+for i in s:
+    if i in v:
+        result+=i.upper()
+    else:
+        result+=i
+print(result)
+
+
+
+# check if 2 strings are anagrams or not

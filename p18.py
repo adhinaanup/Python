@@ -1,3 +1,4 @@
-li=[1,2,3,4,5,6]
-x=[i for i in li if i%2!=0]
-print(x)
+#a=int(input("Enter the character : "))
+x=lambda a,b: a in b
+print(x('a','apple'))
+

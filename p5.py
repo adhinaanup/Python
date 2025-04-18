@@ -1,15 +1,11 @@
-
-n = int(input("Enter the number of terms: "))
-a, b = 0, 1
-
-if n <= 0:
-    print("Please enter a positive integer.")
-elif n == 1:
-    print(f"Fibonacci series (1 term): {a}")
+x=int(input('Enter mark : '))
+if x>=90:
+    print('A')
+elif x<90 and x>=80:
+    print('B')
+elif x<80 and x>=70:
+    print('C')
+elif x<70 and x>=60:
+    print('D')
 else:
-    print("Fibonacci series:")
-    print(a, b, end=" ")
-    for _ in range(2, n):
-        next_term = a + b
-        print(next_term, end=" ")
-        a, b = b, next_term 
+    print('F')

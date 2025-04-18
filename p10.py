@@ -1,7 +1,9 @@
-n=int(input('Enter the no of elements : '))
-li=[]
-for i in range(0,n):
-    x=input('Enter element : ')
-    li.append(x)
-
-print(li)
+def fact(x):
+    f=1
+    i=1
+    while i<=x:
+        f=f*i
+        i=i+1
+    print("Factorial is : ",f)
+x=int(input("Enter the no : "))
+fact(x)

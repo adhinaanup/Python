@@ -1,12 +1,5 @@
-s=input('Enter the string : ')
-count=0
-count1=0
-vowels='aeiouAEIOU'
-for i in s:
-    if i in vowels:
-        count+=1
-    else:
-        count1+=1
-
-print('The no of vowels: ',count)
-print('The no of consonants : ',count1)
+x=int(input('Enter the no : '))
+i=1
+while i<=10:
+    print(i,'x',x,'=',i*x)
+    i+=1

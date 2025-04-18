@@ -1,5 +1,9 @@
-li=[1,2,3,4,5,6,7]
-print('1st element : ',li[0])
-print('last element : ',li[-1])
-print('Elements from index 1 to 3: ',li[1:4])
-print('Elements from index 2 till the end : ',li[2:])
+def sum(x):
+    i=1
+    s=0
+    while i<=x:
+        s=s+i
+        i=i+1
+    print("Sum is  : ",s)
+y=int(input("Enter the limit : "))
+sum(y)
