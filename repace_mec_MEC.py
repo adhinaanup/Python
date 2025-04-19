@@ -1,0 +1,7 @@
+file=open('s.txt','r')
+c=file.read()
+a=c.replace("mec","MEC")
+file.close()
+file=open('s.txt','w')
+file.write(a)
+file.close()
